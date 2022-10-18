@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+
+    <table border="2">
+        <caption>Example</caption>
+        <tr>
+            <th>Signup Form</th>
+            <th>Media</th>
+            <th>List</th>
+        </tr>
+        <tr>
+            <td rowspan="3">
+                <form>
+                    <label for="Username">Username</label>
+                    <p>
+                        <input type="text" name="Username" id="Username">
+                    </p>
+                    <label for="password" >Password</label>
+                    <p>
+                        
+                        <input type="password" name="password" id="password">
+                    </p>
+                    <label for="gender">Gendar</label>
+                    <p>
+                        <input type="radio" name="gender" id="gender"value="Male">Male
+                        <input type="radio" name="gender" id="gender" value="Female">Female
+                    </p>
+                    <label for="lang">Malti Choose</label>
+                    <p>
+                         <input type="checkbox" name="Web" value="html">HTML <br>
+                         <input type="checkbox" name="Web" value="css">CSS <br>
+                         <input type="checkbox" name="Web" value="javascript">Javascript <br>
+                         <input type="checkbox" name="Web" value="php">PHP <br>
+                    </p>
+                    <label for="image">Upload Image</label>
+                    <p>
+                        <input type="file" name="img">
+                    </p>
+                </form>
+            </td>
+            <td>
+                <img src="img1.png" height="200" width="500" alt="image1" title="image1">
+            </td>
+            <td rowspan="3">
+                <ul type="circule">
+                    <li>coffee
+                        <ol type="1">
+                            <li>milk coffe</li>
+                            <li>latte</li>
+                            <li>Espresso</li>
+                        </ol>
+                    </li>
+                    <li>cold drink
+                        <ol type="I">
+                            <li>water</li>
+                            <li>cola</li>
+                            <li>mojito</li>
+                            <li>koktil</li>
+                        </ol>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <audio width="200" height="150" controls>
+                    <source src="001.mp3" type="audio/mp3">
+                    <source src="001.ogg" type="audio/ogg">
+                    your browser dosen't support the audio tag  
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <video width="200" height="150" controls>
+                    <source src="001.mp4" type="video/mp4">
+                    <source src="001.ogg" type="video/ogg">
+                    your browser dosen't support the video tag  
+                </audio>
+            </td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
